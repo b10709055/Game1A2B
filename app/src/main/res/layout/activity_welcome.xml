@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome"
+    android:background="@drawable/welcome_background"
+    android:padding="24dp">
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textSize="66dp"
+        android:textColor="#ffffff"
+        android:layout_above="@id/ab"
+        android:fontFamily="@font/aztecways"
+        android:layout_centerInParent="true"
+        android:layout_margin="4dp"
+        />
+    <TextView
+        android:id="@+id/ab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1A2B"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_margin="4dp"
+        />
+    <Button
+        android:id="@+id/rule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rule"
+        android:textSize="36dp"
+        android:layout_below="@id/ab"
+        android:layout_centerHorizontal="true"
+        android:textColor="#E0E0FF"
+        android:layout_margin="4dp"
+        android:onClick="rule"/>
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="play"
+        android:textSize="36dp"
+        android:layout_below="@id/rule"
+        android:layout_centerHorizontal="true"
+        android:textColor="#E0E0FF"
+        android:layout_margin="4dp"
+        android:onClick="play"/>
+
+
+
+
+</RelativeLayout>
