@@ -2,7 +2,7 @@ Game_1A2B
 ===
 
 ## 1. 實作影片
-{%youtube bqqioP3iBlU%}
+[![Game_1A2B](http://img.youtube.com/vi/bqqioP3iBlU/0.jpg)](http://www.youtube.com/watch?v=bqqioP3iBlU "Game_1A2B")
 ## 2. 構想
 主要功能：
 
